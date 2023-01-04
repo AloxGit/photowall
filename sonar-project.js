@@ -13,6 +13,10 @@ sonarqubeScanner(
 			"sonar.inclusions": "**", // Entry point of your code
 			"sonar.test.inclusions":
 				"src/**/*.spec.js,src/**/*.spec.jsx,src/**/*.test.js,src/**/*.test.jsx",
+			"sonar.exclusions": "**/*.test.tsx",
+			// "sonar.tests": "./src",
+			"sonar.javascript.lcov.reportPaths": "coverage/lcov.info",
+			"sonar.testExecutionReportPaths": "test-report.xml"
 		},
 	},
 	() => process.exit()
