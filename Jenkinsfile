@@ -9,8 +9,7 @@ pipeline {
         }
         stage('ExecuteSonarQubeReport')
         {
-            bat "npm run sonar"
-
+            sh "npm run sonar"
         }  
         stage("Deploy") {
             steps {
