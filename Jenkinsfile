@@ -7,6 +7,11 @@ pipeline {
                 sh "sudo npm run build"
             }
         }
+        stage('ExecuteSonarQubeReport')
+        {
+            bat "npm run sonar"
+
+        }  
         stage("Deploy") {
             steps {
                 sh "sudo rm -rf /var/www/jenkins-react-app"
