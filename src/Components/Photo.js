@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 
 function Photo(props) {
     const post = props.post;
-    return <figure className='figure'>
+    return <figure className='figure'  data-testid = "Photo">
         <img className='photo' src={post.imageLink} alt={post.description}/>
         <figcaption> <p>{post.description}</p></figcaption>
         <div className='button-container'>

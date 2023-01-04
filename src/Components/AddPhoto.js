@@ -23,7 +23,7 @@ class AddPhoto extends Component {
     }
     render() {
         return (
-            <div>
+            <div  data-testid = "AddPhoto">
                 <h1> Photowall</h1>,
                 <div className='form'>
                     <form onSubmit={this.handleSubmit}>

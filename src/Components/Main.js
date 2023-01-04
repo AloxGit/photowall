@@ -14,7 +14,7 @@ class Main extends Component {
 
     render() {
         // console.log(this.props)
-        return <div>
+        return <div data-testid = "Main">
             <Route exact path="/" render={() =>(
                 <div>
                     <Title title={'Photowall'}/>

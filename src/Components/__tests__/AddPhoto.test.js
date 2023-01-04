@@ -3,19 +3,19 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { Provider } from "react-redux";
 // import store from ".../index"
 import { screen } from "@testing-library/react";
-import Main from "../Main";
+import AddPhoto from "../AddPhoto";
 
 
-describe("Testing Main />", () => {
-  test("should render Main", () => {
+describe("Testing AddPhoto />", () => {
+  test("should render AddPhoto", () => {
     render(
       <Provider>
         <Router>
-            <Main/>
+            <AddPhoto/>
         </Router>
       </Provider>
     );
-    const billtest = screen.getByTestId("Main");
+    const billtest = screen.getByTestId("AddPhoto");
     expect(billtest).toBeInTheDocument();
   });
 });

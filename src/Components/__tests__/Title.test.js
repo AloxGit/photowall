@@ -11,7 +11,7 @@ describe("Testing Title />", () => {
     render(
       <Provider>
         <Router>
-            <Title />
+            <Title/>
         </Router>
       </Provider>
     );
