@@ -3,20 +3,20 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { Provider } from "react-redux";
 // import store from ".../index"
 import { screen } from "@testing-library/react";
-import Main from "../Main";
+import PhotoWall from "../PhotoWall";
 import posts from "../../data/fakeData";
 
 
-describe("Testing Main />", () => {
-  test("should render Main", () => {
+describe("Testing PhotoWall />", () => {
+  test("should render PhotoWall", () => {
     render(
       <Provider>
         <Router>
-            <Main {...posts}/>
+            <PhotoWall {...posts}/>
         </Router>
       </Provider>
     );
-    const billtest = screen.getByTestId("Main");
+    const billtest = screen.getByTestId("PhotoWall");
     expect(billtest).toBeInTheDocument();
   });
 });

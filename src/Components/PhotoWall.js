@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom';
 
 function PhotoWall(props) {
-    return <div>
+    return <div data-testid = "PhotoWall">
         <Link className='add-icon' onClick={props.onNavigate} to="/AddPhoto"></Link>
         <div className='photo-grid'>
             {props.posts
