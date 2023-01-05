@@ -1,7 +1,7 @@
 const sonarqubeScanner = require("sonarqube-scanner");
 sonarqubeScanner(
 	{
-		serverUrl: "http://100.26.57.61:9000",
+		serverUrl: "http://18.235.233.68:9000",
 		projectKey: "react-alok",
 		projectName: "react-alok",
 		login: "admin",
