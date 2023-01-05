@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
-  <file path="C:\Users\aloanand\Desktop\courses\photowall\src\Components\__tests__\Title.test.js">
-    <testCase name="Testing Title /&gt; should render Title" duration="79"/>
-  </file>
   <file path="C:\Users\aloanand\Desktop\courses\photowall\src\Components\__tests__\AddPhoto.test.js">
-    <testCase name="Testing AddPhoto /&gt; should render AddPhoto" duration="106"/>
+    <testCase name="Testing AddPhoto /&gt; should render AddPhoto" duration="80"/>
   </file>
   <file path="C:\Users\aloanand\Desktop\courses\photowall\src\Components\__tests__\Photo.test.js">
-    <testCase name="Testing Photo /&gt; should render Photo" duration="119">
+    <testCase name="Testing Photo /&gt; should render Photo" duration="81">
       <failure message="TypeError: Cannot read properties of undefined (reading &apos;imageLink&apos;)"><![CDATA[TypeError: Cannot read properties of undefined (reading 'imageLink')
     at Photo (C:\Users\aloanand\Desktop\courses\photowall\src\Components\Photo.js:8:42)
     at renderWithHooks (C:\Users\aloanand\Desktop\courses\photowall\node_modules\react-dom\cjs\react-dom.development.js:16305:18)
@@ -42,7 +39,7 @@
     </testCase>
   </file>
   <file path="C:\Users\aloanand\Desktop\courses\photowall\src\Components\__tests__\Main.test.js">
-    <testCase name="Testing Main /&gt; should render Main" duration="149">
+    <testCase name="Testing Main /&gt; should render Main" duration="116">
       <failure message="TypeError: Cannot read properties of undefined (reading &apos;sort&apos;)"><![CDATA[TypeError: Cannot read properties of undefined (reading 'sort')
     at PhotoWall (C:\Users\aloanand\Desktop\courses\photowall\src\Components\PhotoWall.js:11:14)
     at renderWithHooks (C:\Users\aloanand\Desktop\courses\photowall\node_modules\react-dom\cjs\react-dom.development.js:16305:18)
@@ -75,5 +72,8 @@
     at runTest (C:\Users\aloanand\Desktop\courses\photowall\node_modules\jest-runner\build\runTest.js:475:34)
     at Object.worker (C:\Users\aloanand\Desktop\courses\photowall\node_modules\jest-runner\build\testWorker.js:133:12)]]></failure>
     </testCase>
+  </file>
+  <file path="C:\Users\aloanand\Desktop\courses\photowall\src\Components\__tests__\Title.test.js">
+    <testCase name="Testing Title /&gt; should render Title" duration="53"/>
   </file>
 </testExecutions>
